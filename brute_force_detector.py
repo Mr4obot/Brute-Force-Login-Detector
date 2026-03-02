@@ -29,4 +29,4 @@ class BruteForceDetector:
 if __name__ == "__main__":
     brute_force_detector = BruteForceDetector("log.txt",3)
     brute_force_detector.process_logs()
-    brute_force_detector.detect_attack
+    brute_force_detector.detect_attack()
